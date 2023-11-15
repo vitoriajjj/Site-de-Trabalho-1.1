@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./bootstrap-5.2.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link rel="stylesheet" href="./formulario.css">
+  <link rel="icon" type="image/x-icon" href="./img/nota-removebg-preview.png" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="./generos.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <title>Formulário de Cadastro</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <i class="bi bi-file-earmark-music"></i>
+
+      </div>
+
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="./index.html">HOME</a></li>
+          <li><a href="./historia.html">HISTÓRIA</a></li>
+          <li><a href="./elementos.html">ELEMENTOS</a></li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">OUTROS
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="./instrumentos.html">INSTRUMENTOS</a></li>
+              <li><a href="./generos.html">GÊNEROS</a></li>
+              <li><a href="./formulario.html">CADASTRO</a></li>
+            </ul>
+          </li>
+          <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="form-image">
+      <img src="./img/images-removebg-preview.png" alt="...">
+    </div>
+    <div class="form">
+      <form action="#">
+        <div class="form-header">
+          <div class="title">
+            <h1>Cadastre-se</h1>
+          </div>
+        </div>
+        <div class="input-group">
+          <div class="input-box">
+            <label for="firstname">
+              <h5>Nome :</h5>
+            </label>
+            <input type="text" id="firstname" name="firstname" placeholder="Digite seu primeiro nome">
+
+            <label for="email">
+              <h5>E-mail : </h5>
+            </label>
+            <input type="email" id="email" name="email" placeholder="Digite seu e-mail ">
+
+            <label for="number">
+              <h5>Celular : </h5>
+            </label>
+            <input type="tel" id="number" name="number" placeholder="(xx) xxxx-xxxx ">
+
+            <label for="password">
+              <h5>Senha :</h5>
+            </label>
+            <input type="password" id="password" name="password" placeholder="Digite sua senha">
+
+            <div class="continue-button">
+              <button><a href="#">
+                  <h5>Enviar</h5>
+                </a></button>
+            </div>
+
+          </div>
+
+      </form>
+    </div>
+  </div>
+  <script src="./bootstrap-5.2.2-dist/js/bootstrap.js"></script>
+</body>
+
+</html>
