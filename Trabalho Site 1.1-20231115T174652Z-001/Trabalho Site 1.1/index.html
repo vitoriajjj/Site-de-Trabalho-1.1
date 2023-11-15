@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home - Museu da Música</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon" href="./img/nota-removebg-preview.png" />
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="./footer.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" 
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+
+            <i class="bi bi-file-earmark-music"></i>
+
+          </div>
+
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./historia.html">HISTÓRIA</a></li>
+              <li><a href="./elementos.html">ELEMENTOS</a></li>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">OUTROS
+                  <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a href="./instrumentos.html">INSTRUMENTOS</a></li>
+                  <li><a href="./generos.html">GÊNEROS</a></li>
+                  <li><a href="./formulario.html">CADASTRO</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner" role= "listbox">
+            <div class="item active">
+                <img src="./img/15438952-piano-celeste.jpg" alt="Imagem teclado.">
+                <div class="carousel-caption">
+                    <h3 id="titulo1">Imagem 1</h3>
+                    <p>Demonstração de instrumento (teclado)</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/cantomedieval-cke.webp" alt="Imagem cantores medievais.">
+                <div class="carousel-caption">
+                    <h3 id="titulo2">Imagem 2</h3>
+                    <p>Pintura exibindo cantores medievais</p>
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./img/musicanorenascimento-cke.webp" alt="Imagem músicos renacentistas.">
+                <div class="carousel-caption">
+                    <h3 id="titulo3">Imagem 3</h3>
+                    <p>Pintura de Gerard van Honthorst (1623) retratando músicos no Renascimento</p>
+                </div>
+            </div>
+        </div>
+
+        <a class="left carousel-control" href="#myCarousel"  role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <div class="container text-center">
+        <h3>MUSEU DA MÚSICA</h3>
+        <p><em> Conheça mais sobre música! </em></p>
+        <p>Aqui você encontrará curiosidades da música, sendo esta, uma das manifestações artísticas mais antiga, <br>
+          que nos rodeia até os dias de hoje.
+        </p> <br>
+
+      <div class="frase"> 
+        <p>"A música é celeste, de natureza divina e de tal beleza que encanta a alma e eleva acima da sua condição". </p>
+        <p><em>Aristóteles</em></p>
+      </div>
+
+        <br>
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <p class="text-center"><strong>1ª ARTE</strong></p><br>
+                <a href="#demo" data-toggle="collapse">
+                    <img src="./img/music.jpg" class="img-circle person" alt="Primeira Arte.">
+                </a>
+                <div id="demo" class="collapse">
+                    <p>Você sabia que a música compõe <br> <em>"As Sete Artes"</em> ?
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <p class="text-center"><strong>ESTIMULAÇÃO</strong></p><br>
+                <a href="#demo2" data-toggle="collapse">
+                    <img src="./img/music.jpg" class="img-circle person" alt="Estimulação.">
+                </a>
+                <div id="demo2" class="collapse" >
+                    <p>A música é uma das poucas atividades que estimula praticamente o cérebro inteiro.</p>
+                </div>
+            </div>
+
+            <div class="col-sm-4">
+                <p class="text-center"><strong>ANTIGUIDADE</strong></p><br>
+                <a href="#demo3" data-toggle="collapse">
+                    <img src="./img/music.jpg" class="img-circle person" alt="Antiguidade.">
+                </a>
+                <div id="demo3" class="collapse">
+                    <p>A música mais antiga data-se de 3 mil anos.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <style>
+      .nav-tabs li a {
+        color: #777;
+      }
+      </style>
+      
+      <h3 class="text-center">CONTEXTUALIZAÇÃO</h3>
+      <ul class="nav nav-tabs">
+        <li class="active"><a data-toggle="tab" href="#home">1ª arte</a></li>
+        <li><a data-toggle="tab" href="#menu1">Estimulação</a></li>
+        <li><a data-toggle="tab" href="#menu2">Antiguidade</a></li>
+      </ul>
+      
+      <div class="tab-content">
+        <div id="home" class="tab-pane fade in active">
+          <p>O intelectual italiano Ricciotto Canudo, em 1923, escreveu o “Manifesto das Sete Artes”. 
+            Nesse documento, ele definiu as artes clássicas e adicionou, em uma lista anterior feita por Hegel, o cinema. 
+            Apesar de existir discussões a respeito da escolha dessas artes, o estudo de Canudo é o mais aceito atualmente.
+            Há diversas formas de ordenar as artes, sendo que a mais usada é a lista, na qual a música é a Primeira Arte. A ordem, então, seria:
+          <ul>
+            <li>1-Música;</li>
+            <li>2-Dança;</li>
+            <li>3-Pintura;</li>
+            <li>4-Escultura;</li>
+            <li>5-Arquitetura;</li>
+            <li>6-Literatura;</li>
+            <li>7-Cinema.</li>
+          </ul>
+          Além disso, muito se fala a respeito das que não aparecem na lista, como o Teatro e a Fotografia. 
+          Mas, um dos pontos a respeito desse debate é que essas são uma combinação das que aparecem na lista. 
+          Logo, o teatro seria uma combinação de cinema, literatura e dança, por exemplo.
+          </p>
+        </div>
+
+        <div id="menu1" class="tab-pane fade">
+          <p>Poucas atividades são capazes de estimular nosso cérebro praticamente inteiro, e a música faz parte delas. 
+            Ao ouvir uma música, você pode estimular quase todas as áreas do órgão, inclusive despertando ramos de aprendizagem;
+            a música ajuda no processo de construção de linguagem, no desenvolvimento social e até mesmo no compartilhamento de emoções.
+            É só imaginar como a letra de uma canção pode se conectar com um momento que estamos vivendo, nos ensinar novas palavras ou até mesmo novos idiomas
+             – aprender inglês com música é uma boa alternativa.</p>
+        </div>
+        <div id="menu2" class="tab-pane fade">
+          <p>O primeiro registro musical encontrado por estudiosos data de 1.400 a.C, mais de 3 mil anos atrás.
+            A composição se chama “Hurrian Hymn Text H6” e é um hino, provavelmente utilizado em cultos da época. 
+            A melodia escrita em um tablete foi encontrada por arqueólogos franceses e é o exemplo mais antigo que pode ser interpretado e tocado atualmente. <br>
+            Ouça uma reprodução dos registros: <br>
+          <a href="https://youtu.be/64aouN2oohM?feature=shared">https://youtu.be/64aouN2oohM?feature=shared</a> </p>
+        </div>
+      </div>
+
+
+
+
+
+
+    <style>
+        .bg-1 {
+          background: #2d2d30;
+          color: #bdbdbd;
+        }
+        .bg-1 h3 {color: #fff;}
+        .bg-1 p {font-style: italic;}
+        </style>
+        
+        <div class="bg-1">
+          <div class="container">
+            <h3 class="text-center"> 𝄢 TOUR MUSICAL 𝄞 </h3>
+            <p class="text-center">Segue abaixo, figuras relacionadas a música!</p>
+        
+            <div class="row text-center">
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="./img/musicanaprehistoria-0-cke.webp" alt="Pintura antiguidade.">
+                        <p><strong>FIGURA 1</strong></p>
+                        <p>Pintura rupestre encontrada na Espanha exibe várias pessoas dançando, o que <br>
+                           sugere a presença de música também.</p>
+                        <button class="btn"><a href="./historia.html">CONFIRA</a></button>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="./img/musicagrega-cke.webp" alt="Pessoa tocando instrumento (Grécia Antiga).">
+                        <p><strong>FIGURA 2</strong></p>
+                        <p>Representação de pessoa tocando instrumento na Grécia Antiga.</p>
+                        <button class="btn"><a href="./instrumentos.html">CONFIRA</a></button>
+                    </div>
+                </div>
+
+                <div class="col-sm-4">
+                    <div class="thumbnail">
+                        <img src="./img/mesopotamiaasiriosarpa-cke.webp" alt="Músicos assírios.">
+                        <p><strong>FIGURA 3</strong></p>
+                        <p>Músicos assírios tocando instrumentos.<br><br><br></p>
+                        <button class="btn"><a href="./instrumentos.html">CONFIRA</a></button>
+                    </div>
+                </div>
+        
+            </div>
+          </div>
+        </div>
+
+        
+        <img src="./img/size_960_16_9_ouvindo-musica1.webp" style="width:100%">
+
+            <style>
+                footer {
+                  background-color: #2d2d30;
+                  color: #f5f5f5;
+                  padding: 32px;
+                }
+                
+                footer a {
+                  color: #f5f5f5;
+                }
+                
+                footer a:hover {
+                  color: #777;
+                  text-decoration: none;
+                }
+                </style>
+                
+                <!--class="text-center"-->
+                <footer style="margin: 0; padding: 0; box-sizing: border-box; font-family: 'Inter', sans-serif;">
+                  <br>
+                  <p><a href="./index.html" data-toggle="tooltip" title="Museu da Música">@MuseuDaMúsica</a></p>
+
+                  <div class="midias-sociais">
+                    <a href="https://api.whatsapp.com/send?phone=5518991376400&text=Oi"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://instagram.com/viih_vitoria2007?igshid=MTNiYzNiMzkwZA=="><i class="fa-brands fa-instagram"></i></a></i>
+                    <i class="fa-brands fa-whatsapp"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                   </div>
+                   <ul class="links">
+                    <li><a href="./index.html">home</a></li>
+                    <li><a href="./historia.html">historia</a></li>
+                    <li><a href="./elementos.html">elementos</a></li>
+                    <li><a href="./generos.html">gêneros</a></li>
+                    <li><a href="./formulario.html">formulario</a></li>
+                   </ul>
+                   <div class="line"></div>
+                   <p class="copyright">Laura da Silva @ 2023</p>
+                   <p class="copyright">Thaynara Vitória de Azevedo Ferreira @ 2023</p>
+                   <br>
+
+               
+                </footer>
+                
+
+                <script>
+                $(document).ready(function(){
+               
+                  $('[data-toggle="tooltip"]').tooltip();
+                })
+                </script>
+</body>
+</html>
